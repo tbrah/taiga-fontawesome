@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { cuIconAvo } from './icons.model';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'taiga-fontawesome';
+  icon = cuIconAvo.data;
 }
